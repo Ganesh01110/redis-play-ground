@@ -2,6 +2,8 @@ const client = require('./client')
 
 // function like priority queue
 
+// https://redis.io/docs/latest/develop/data-types/sorted-sets/
+
 
 async function init(){ 
     // import assert from 'assert';
