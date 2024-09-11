@@ -78,7 +78,14 @@ async function init(){
     const res17 = await client.hmget('bike:1:stats', ['crashes', 'owners'])
     console.log(res17)  // ['1', '1']
     
-    
+
+
+// HSET: sets the value of one or more fields on a hash.
+// HGET: returns the value at a given field.
+// HMGET: returns the values at one or more given fields.
+// HINCRBY: increments the value at a given field by the integer provided.
+
+// https://redis.io/docs/latest/develop/data-types/hashes/
 
 }
 
