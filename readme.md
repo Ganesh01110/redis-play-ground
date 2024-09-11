@@ -9,6 +9,10 @@ redis-cli
 
 ping
 
+open interface for redis stack in browser localhost
+
+http://localhost:8001/
+
 set nodejs project , install ioredis , import and makefile
 
 run=> node <file_name>
