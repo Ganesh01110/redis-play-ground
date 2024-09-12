@@ -11,6 +11,7 @@ app.get("/", async (req, res) =>{
    const { data } = await axios.get('https://jsonplaceholder.typicode.com/todos');
    await client.set('todos',JSON.stringify(data));
    await client.expire('todos',300);
+   console.log("after expire code executed..");
    
     return res.json(data);
 });
