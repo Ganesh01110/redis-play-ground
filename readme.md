@@ -16,3 +16,10 @@ http://localhost:8001/
 set nodejs project , install ioredis , import and makefile
 
 run=> node <file_name>
+
+speed up by redis 
+run => node server.js with express , axios and  https://jsonplaceholder.typicode.com/todos  api
+
+test in postman or thunderclient by a get request to http://localhost:9000
+
+speed up the above process by 
